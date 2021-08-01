@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body class="page__body body">
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img src="img/mobile_img/logotyle-mobile.svg" width="102" height="84" alt="логотип сайта седона">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current">
+              <a>Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="catalog.html">Фото и видео</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">Форма отзыва</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="greeting">
+        <div class="greeting__wrapper">
+          <img class="greeting__text-image" src="img/mobile_img/back-intro.jpg" width="320" height="308" alt="Приветствие сайта Седона">
+        </div>
+      </section>
+      <section class="gallery">
+        <header class="gallery-header">
+          <h1 class="gallery-header__title">Фото и видео</h1>
+        </header>
+        <p class="gallery__description">Не можете решиться на путешествие<br> из-за курса? Фотографии помогут вам <br>забыть о политике и экономике.</p>
+      </section>
+      <section class="photos">
+        <h2 class="visually-hidden">Галерея</h2>
+        <ul class="photos__list">
+          <li class="photos__item photo">
+            <div class="photo__img">
+              <img src="img/mobile_img/catalog_img/roads_min.png" alt="фото дороги на закате">
+            </div>
+            <h3 class="photo__title">Неродные просторы</h3>
+            <p class="photo__author">Автор фото: Борис</p>
+          </li>
+          <li class="photos__item photo">
+            <div class="photo__img">
+              <img src="img/mobile_img/catalog_img/cactus_min.png" alt="фото кактуса">
+            </div>
+            <h3 class="photo__title">Местная растительность</h3>
+            <p class="photo__author">Автор фото: Сергей</p>
+          </li>
+          <li class="photos__item photo">
+            <div class="photo__img">
+              <img src="img/mobile_img/catalog_img/north_min.png" alt="фото дороги среди леса">
+            </div>
+            <h3 class="photo__title">Дорога на север</h3>
+            <p class="photo__author">Автор фото: Петр</p>
+          </li>
+          <li class="photos__item photo">
+            <div class="photo__img">
+              <img src="img/mobile_img/catalog_img/ridge_min.png" alt="фото моста дьявола">
+            </div>
+            <h3 class="photo__title">Мост дьявола</h3>
+            <p class="photo__author">Автор фото: Антон</p>
+          </li>
+        </ul>
+      </section>
+      <section class="gallery">
+        <header class="gallery-header">
+          <h2 class="gallery-header__title">Все еще сомневаетесь?</h2>
+        </header>
+        <p class="gallery__description">Смотрите видеопрезентацию и <br>скорее за билетами, пока они не<br> подорожали в очередной раз!</p>
+        <div>
+          <video poster="img/mobile_img/catalog_img/video_min.png" controls></video>
+        </div>
+      </section>
+    </main>
+      <footer class="page__footer footer">
+        <div>
+          <h2 class="footer__title footer__title--hashtag">
+            <a href="#">#visitsedona</a>
+          </h2>
+        </div>
+        <div class="footer__social social">
+          <ul class="social__list">
+            <li class="social__item social__item--twitter"><a href="#">twitter</a></li>
+            <li class="social__item social__item--facebook"><a href="#">facebook</a></li>
+            <li class="social__item social__item--youtube"><a href="#">youtube</a></li>
+          </ul>
+        </div>
+        <div class="footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
+          <a class="copyright__icon icon" href="https://htmlacademy.ru">
+            <img src="img/mobile_img/htmlacademy.svg" alt="Копирайт академии">
+          </a>
+        </div>
+      </footer>
+  </body>
+</html>
