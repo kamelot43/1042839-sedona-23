@@ -6,7 +6,7 @@
   </head>
   <body class="page__body">
     <header class="page-header">
-      <a class="page-header__logo">
+      <a class="page-header__logo" href="index.html">
         <img src="img/mobile_img/logotyle-mobile.svg" width="102" height="84" alt="логотип сайта седона">
       </a>
       <nav class="main-nav">
@@ -16,13 +16,13 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--current">
-              <a>Главная</a>
+              <a href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
               <a href="catalog.html">Фото и видео</a>
             </li>
             <li class="site-list__item">
-              <a href="form.html">Форма отзыва</a>
+              <a>Форма отзыва</a>
             </li>
             <li class="site-list__item">
               <a href="#">HTML Academy</a>
@@ -38,8 +38,8 @@
         </div>
       </section>
       <section class="review">
-        <header class="review-header">
-          <h1 class="review-header__title">Оставьте свой отзыв</h1>
+        <header class="review__header">
+          <h1 class="review__header-title">Оставьте свой отзыв</h1>
         </header>
         <p class="review__description">Помогите нашим отелям стать лучше!<br> оставьте отзыв о них, а также о<br> посещенных вами <br>достопримечательностях</p>
       </section>
@@ -124,7 +124,7 @@
               <span class="sight__label">Слайд-парк</span>
             </label>
           </li>
-          <li>
+          <li class="sights-list__item">
             <label class="sight">
               <input class="visually-hidden" type="checkbox" name="sight" value="Красные скалы">
               <span class="sight__label">Красные скалы</span>
@@ -136,7 +136,7 @@
         <legend class="form__subtitle">Опишите свои эмоции:</legend>
         <textarea class="emotions" name="emotions" cols="30" rows="10" maxlength="200" placeholder="Опишите подробно все свои восторги"></textarea>
       </fieldset>
-      <button class="review__btn btn btn_md" type="submit">Отправить отзыв</button>
+      <button class="review__btn btn btn--md" type="submit">Отправить отзыв</button>
         </form>
       </section>
       <section class="popup">
@@ -153,19 +153,19 @@
       <footer class="page__footer footer">
         <div>
           <h2 class="footer__title footer__title--hashtag">
-            <a href="#">#visitsedona</a>
+            <a href="#nowhere">#visitsedona</a>
           </h2>
         </div>
-        <div class="footer__social social">
-          <ul class="social__list">
-            <li class="social__item social__item--twitter"><a href="#">twitter</a></li>
-            <li class="social__item social__item--facebook"><a href="#">facebook</a></li>
-            <li class="social__item social__item--youtube"><a href="#">youtube</a></li>
+        <div class="footer__socials socials">
+          <ul class="socials__list">
+            <li class="socials__item socials__item--twitter"><a href="#">twitter</a></li>
+            <li class="socials__item socials__item--facebook"><a href="#">facebook</a></li>
+            <li class="socials__item socials__item--youtube"><a href="#">youtube</a></li>
           </ul>
         </div>
         <div class="footer__copyright copyright">
           <p class="copyright__text">Разработано</p>
-          <a class="copyright__icon icon" href="https://htmlacademy.ru">
+          <a class="copyright__icon icon" href="https://htmlacademy.ru/intensive/adaptive">
             <img src="img/mobile_img/htmlacademy.svg" alt="Копирайт академии">
           </a>
         </div>
